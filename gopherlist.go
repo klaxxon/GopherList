@@ -1,4 +1,4 @@
-package grmonitor
+package gopherlist
 
 import (
 	"fmt"
