@@ -1,4 +1,4 @@
-package gopherlist
+package gopherstack
 
 import (
 	"fmt"
