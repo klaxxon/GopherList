@@ -2,7 +2,7 @@ package grmonitor
 
 // GRMonitor runs a routine that checks the goroutines every poll seconds for any
 // additions or changes if the showDiffs flag is true
-func GRMonitor(match string, poll int, showDiffs bool) {
+func Run(match string, poll int, showDiffs bool) {
 	// Goroutine name -> instance count
 	var routines map[string]int64
 	go func() {
