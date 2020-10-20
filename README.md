@@ -60,7 +60,7 @@ To use:
 ```
 import (
   log
-  gopherstack "github.com/klaxxon/GopherStack"
+  "github.com/klaxxon/gopherstack"
  )
  
 func main() {
